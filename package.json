@@ -1,0 +1,42 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development && npm run nuxt:dev",
+        "development": "mix",
+        "watch": "mix watch && npm run nuxt:dev",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production && npm run nuxt:build",
+        "production": "mix --production",
+        "nuxt:dev": "nuxt",
+        "nuxt:build": "nuxt build",
+        "lint": "eslint --ext .js,.vue .",
+        "lint:fix": "npm run lint -- --fix"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.12.5",
+        "core-js": "^3.8.3",
+        "nuxt": "^2.14.12",
+        "dotenv": "latest",
+        "fs-extra": "latest"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "@nuxtjs/eslint-config": "^5.0.0",
+        "@nuxtjs/eslint-module": "^3.0.2",
+        "@nuxtjs/stylelint-module": "^4.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.18.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-nuxt": "^2.0.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-vue": "^7.5.0",
+        "prettier": "^2.2.1",
+        "stylelint": "^13.9.0",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-standard": "^20.0.0"
+    }
+}

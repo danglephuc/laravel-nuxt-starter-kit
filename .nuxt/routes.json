@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\GitHub\\\\laravel-nuxt-starter-kit\\\\resources\\\\nuxt\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_2a9ce8b8"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\GitHub\\\\laravel-nuxt-starter-kit\\\\resources\\\\nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4a54c37d"
+  }
+]
